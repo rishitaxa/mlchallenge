@@ -1,0 +1,40 @@
+# Dataset files (VERY LARGE - DO NOT PUSH)
+dataset/
+*.tsv
+*.csv
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# Output and Model Artifacts
+output/
+models/
+*.pkl
+*.json
+*.log
+
+# Environment Variables & AWS Credentials / Keys
+.env
+.env.*
+*.pem
+*.key
+*.crt
+credentials
+config
+
+# Python / IDE / OS temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+.idea/
+.vscode/
+.DS_Store
+._*
+__MACOSX/
